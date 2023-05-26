@@ -1,0 +1,25 @@
+{
+  "dialog_id": "devchateval-code-0-0",
+  "base_he_task_id": "HumanEval/0",
+  "ques_and_ans": [
+    {
+      "task_type": "test_gen",
+      "prompt": "1,2,3",
+      "canonical_solution": "c_solution",
+      "evaluation_method": [
+        {
+          "type": "coverage_analysis",
+          "data_for_eval": "",
+          "metrics": [
+            "stmt-cov",
+            "branch-cov"
+          ]
+        }
+      ],
+      "answers": [
+        "answer1"
+      ],
+      "time_cost": "6.5s"
+    }
+  ]
+}
